@@ -1,3 +1,5 @@
+# Git - Rebase
+
 ```bash
 git checkout MyOutdatedBranch
 git fetch origin master:master
