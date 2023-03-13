@@ -1,5 +1,15 @@
 # Flux
 
+## Links
+
+- [Flux CLI](https://fluxcd.io/flux/cmd/)
+
+## List resources
+
+```bash
+flux get all --all-namespaces
+```
+
 ## Troubleshooting
 
 ```bash
