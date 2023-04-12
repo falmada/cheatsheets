@@ -1,6 +1,6 @@
 # Connect Helm to own Gitlab instance
 
-1. Go to your Gitlab instance, for example: https://gitlab.mydomain.com/-/profile/personal_access_tokens
+1. Go to your Gitlab instance, for example: <https://gitlab.mydomain.com/-/profile/personal_access_tokens>
 2. Set a token name, expiration date, and set required scopes:
    - `read_api`
    - `read_user`
