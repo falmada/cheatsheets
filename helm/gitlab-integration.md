@@ -12,9 +12,14 @@
 Now on a shell, run:
 
 ```sh
+# Set variables
 GITLAB_USER="user.name"
  GITLAB_TOKEN="token obtained on above steps"
 PROJECT_ID="1234" # belongs to repo where your helm chart is https://gitlab.mydomain.com/group_name/helm-repo-name
+HELM_LOCAL_REPO_NAME="my-repo"
 CHANNEL="stable"
-helm repo add --username ${GITLAB_USER} --password ${GITLAB_TOKEN} k8s-helm-repo https://gitlab.mydomain.com/api/v4/projects//packages/helm/$\{CHANNEL\}
+# Add repo
+helm repo add --username ${GITLAB_USER} --password ${GITLAB_TOKEN} ${HELM_LOCAL_REPO_NAME} https://gitlab.mydomain.com/api/v4/projects//packages/helm/$\{CHANNEL\}
+# List all available charts
+helm search repo ${HELM_LOCAL_REPO_NAME} 
 ```
