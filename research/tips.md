@@ -1,0 +1,15 @@
+- Understand the topic at hand by searching for articles that make it easy to consume
+	- Take note of keywords, concepts, products (if any) and such
+	- Document GOOD reference links (not all, those that actually helped you)
+	- A mindmap can help you quickly identify "parent" topics that may lead to further investigation
+- If technology related, check on the landscape
+	- For example: https://landscape.cncf.io/card-mode?grouping=category
+- Expand with searching for whitepapers that could lead to status quo of the topic at hand
+	- Try to find recent articles
+	- If not recent, make sure you write down things that may have changed from your own point of view, so you can clarify that later on (do not buy old stuff!)
+	- Try to find implementations/use cases and best practices for the topic at hand (if that applies). This can further expand your understanding of the topic
+	- Document ALL reference links, you can clean-up later if you find something that is OLD and/or does NOT apply
+- Document findings
+	- Try to narrow your findings to the topic you picked, but also consider ramifications that were not initially in you brain
+	- While some content will be subjective, stick to objective data from whitepapers. Other articles may be also quoted but understand who is behind them (avoid marketing stuff related to a single product and quoting people who has no weight on the industry)
+	- If your research is related to a technology and its products, try to go deep on what differences they have between them (this is hard, as they make it hard to compare solutions, but try) and what do you REALLY need from them (sometimes commercial products offer TOO much). Look for open source alternatives, if any
