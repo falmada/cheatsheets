@@ -22,6 +22,11 @@
 	FROM extras:${CODE_VERSION}
 	CMD  /code/run-extras
 	```
+- Another example
+	```Dockerfile
+	ARG distro=bionic
+	FROM ubuntu:$distro AS base
+	```
 - An ARG declared before a FROM is outside of build stage. It can be used declaring it again without a value
 	```
 	ARG VERSION=latest
@@ -30,6 +35,7 @@
 	RUN echo $VERSION > image_version
 	```
 
+
 ### FROM
 
 - FROM instruction sets the base image.
@@ -37,6 +43,21 @@
 	+ `<image>[:<tag>]` can be just `<image>`
 	+ `<image>[:<tag>]` can be `<image>[@<digest>]`
 	
+#### FROM as
+
+```
+# This image requires an authentication token - Require docker login to auth, then docker build
+FROM registry.gitlab.com/gitlab-org/security-products/analyzers/kubesec:latest as kubesec
+
+FROM alpine/helm:3.11.1
+COPY --from=kubesec /analyzer /bin/gl-analyzer
+COPY --from=kubesec /bin/kubesec /bin/kubesec
+
+RUN apk add --update --no-cache git bash python3 py3-pip
+RUN helm plugin install https://github.com/chartmuseum/helm-push
+ENTRYPOINT [""]
+```
+
 ### RUN
 
 - Can be used in two ways
@@ -95,6 +116,7 @@ RUN set -o pipefail && wget -O - https://some.site | wc -l > /number
 - It's a key-value pair
 - Common labels: version, description
 - `LABEL org.opencontainers.image.authors="SvenDowideit@home.org.au"` simulates previous MAINTAINER instruction which is now deprecated
+- [Good set of labels to use](https://specs.opencontainers.org/image-spec/annotations/?v=v1.0.1)
 
 ### ENV
 
