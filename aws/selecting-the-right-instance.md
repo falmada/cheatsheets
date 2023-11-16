@@ -6,6 +6,7 @@
 	- Required network performance
 	- Amount of ENIs
 	- Type of workload (does it make sense for burstable?)
+	- CPU Architecture (does workload it support ARM to use Graviton?)
 3. Search for instances on the specific region within [instances.vantage.sh](https://instances.vantage.sh/?min_memory=10&min_vcpus=12&cost_duration=monthly)
 4. If there is a budget limit, get some numbers as to what is the monthly and yearly budget that is fair to be used
 	- Budget may be a total for your account, so be careful not to allocate 100% of it to just the VMs as you might need extra $ for storage, ELB, Elastic IPs and such
