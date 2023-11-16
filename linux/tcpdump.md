@@ -1,0 +1,3 @@
+- Check without FQDNs, just IPs: `tcpdump -n ...`
+- Check against a specific destination IP: `tcpdump -n dst 1.2.3.4`
+- 
