@@ -28,8 +28,6 @@ git status
 # Repeat, until it is finished
 git rebase --continue
 git status
-# This will fail (master has a different "base")
-git push origin MyOutdatedBranch
 # Force with lease is less dangerous
 git push --force-with-lease origin MyOutdatedBranch
 ```
