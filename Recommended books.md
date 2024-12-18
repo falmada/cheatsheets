@@ -1,6 +1,6 @@
-Anything that goes in here is something I actually read, from start to finish. Obviously, I won't be covering books which are related to fiction, drama or whatever.
+Anything that goes in here is something I actually read. Those books which, for some reason, I stopped reading, did not make it to the list (and those are personal reasons, even if I got to 50% of it).
 
-My way of reading is through Kindle or physical books (if available), and while I always try to go for English-only books, sometimes I only get the Spanish version (mainly for physical ones) due to where I live (and the price of the ones in English!).
+Most of these are available through Kindle, and while I would love to read physical books, I hate to carry them and they are expensive as hell to import in my country.
 
 - _It Worked for Me: In Life and Leadership_ by Colin Powell
 	- Main topic: **Life lessons and leadership principles**
@@ -37,3 +37,5 @@ My way of reading is through Kindle or physical books (if available), and while 
 	- Main topic is around **Leadership**
 	- A lot of insight in making mistakes and how to learn on the go
 	- Gives quite a lot of good references to other books and ways of handling some topics ([FBI, Feeling, Behavior, Impact](https://www.kristenhadeed.com/blog/why-is-accepting-feedback-so-dang-hard)), 360 reviews, among others
+
+Within this list I'm also skipping specific books related to certain technologies, mainly because I use them as reference (not reading them from start to finish).

@@ -4,6 +4,7 @@ The purpose of this repo is to store and track information on different technolo
 
 > There might be some notes in spanish, due to copying them over from another note taking app or previous repos
 
+Adding a quick page with some [[Recommended books]] as well.
 ## Useful links
 
 - <https://github.com/bregman-arie/devops-exercises>
